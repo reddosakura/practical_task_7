@@ -8,7 +8,7 @@ namespace Conductor
     public static string Repeat(this string value, int count) => string.Concat(Enumerable.Repeat(value, count));
 }
 
-public class Сonductor
+public static class Сonductor
 {
     public static void ShowDirConstent(string path)
     {
