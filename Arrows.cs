@@ -83,7 +83,7 @@ namespace ArrowName
                     
                     // Console.WriteLine(string.Join(", ", dirs));
                 }
-                else if (key.Key == ConsoleKey.Backspace)
+                else if (key.Key == ConsoleKey.Escape)
                 {
                     string prevdir = dirs[0];
                     List<string> dirsplit = prevdir.Split(@"\").ToList();
